@@ -1,15 +1,15 @@
 ENV_COMMON_VAR=GOOS=$(shell uname -s | tr A-Z a-z) GOARCH=$(subst x86_64,amd64,$(patsubst i%86,386,$(shell uname -m)))
 ENV_BUILD_VAR=CGO_ENABLED=0
 
-LOCAL_REGISTRY=localhost:5000/k8s-scheduler-plugins
+LOCAL_REGISTRY=localhost:5000
 LOCAL_IMAGE=kube-scheduler:latest
 
-RELEASE_REGISTRY?=registry.management-dta.yolt.io
+RELEASE_REGISTRY?=localhost
 RELEASE_VERSION?=$(shell git describe --tags --match "v*")
 RELEASE_IMAGE:=kube-scheduler:$(RELEASE_VERSION)
 
 .PHONY: all
-all: build
+all: clean build local-image delete-deployment create-deployment
 
 .PHONY: build
 build: build-scheduler
@@ -19,20 +19,28 @@ build-scheduler:
 	$(ENV_COMMON_VAR) $(ENV_BUILD_VAR) go build -ldflags '-w' -o bin/kube-scheduler cmd/scheduler/main.go
 
 .PHONY: local-image
-local-image: clean
-	docker build -f ./build/scheduler/Dockerfile -t $(LOCAL_REGISTRY)/$(LOCAL_IMAGE) .
-	docker build -f ./build/controller/Dockerfile -t $(LOCAL_REGISTRY)/$(LOCAL_CONTROLLER_IMAGE) .
+local-image:
+	docker build --no-cache -f ./build/scheduler/Dockerfile -t $(LOCAL_IMAGE) .
+
+.PHONY: push-local-image
+push-local-image: local-image
+	docker push $(LOCAL_REGISTRY)/$(LOCAL_IMAGE)
 
 .PHONY: release-image
-release-image: clean
+release-image:
 	docker build -f ./build/scheduler/Dockerfile -t $(RELEASE_REGISTRY)/$(RELEASE_IMAGE) .
-	docker build -f ./build/controller/Dockerfile -t $(RELEASE_REGISTRY)/$(RELEASE_CONTROLLER_IMAGE) .
 
 .PHONY: push-release-image
 push-release-image: release-image
-	gcloud auth configure-docker
 	docker push $(RELEASE_REGISTRY)/$(RELEASE_IMAGE)
-	docker push $(RELEASE_REGISTRY)/$(RELEASE_CONTROLLER_IMAGE)
+
+.PHONY: create-deployment
+create-deployment:
+	kubectl create -f ./manifests/kube-scheduler.yaml || exit 0
+
+.PHONY: delete-deployment
+delete-deployment:
+	kubectl -n kube-system delete deployment limit-await-scheduler || exit 0
 
 .PHONY: clean
 clean:

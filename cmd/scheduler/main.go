@@ -1,7 +1,7 @@
 package main
 
 import (
-	limitAwait "hodor-k8s/pkg/limit-await"
+	limitAwait "kube-scheduler-plugin/pkg/limit-await"
 	"math/rand"
 	"os"
 	"time"
@@ -15,6 +15,7 @@ func main() {
 	command := app.NewSchedulerCommand(
 		app.WithPlugin(limitAwait.Name, limitAwait.New),
 	)
+
 	if err := command.Execute(); err != nil {
 		os.Exit(1)
 	}

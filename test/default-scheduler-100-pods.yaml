@@ -1,0 +1,1211 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: no-annotation-default
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: default-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2

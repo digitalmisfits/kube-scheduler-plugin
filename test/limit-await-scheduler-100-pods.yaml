@@ -1,0 +1,1212 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  generateName: pause-
+  labels:
+    name: kube-scheduler-example
+spec:
+  schedulerName: limit-await-scheduler
+  containers:
+    - name: pod-with-no-annotation-container
+      image: k8s.gcr.io/pause:3.2

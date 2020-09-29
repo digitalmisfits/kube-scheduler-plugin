@@ -1,12 +1,12 @@
-FROM golang:1.15.0
+FROM golang:1.13.0
 
-WORKDIR /go/src/sigs.k8s.io/scheduler-plugins
+WORKDIR /tmp/scheduler
 COPY . .
-RUN make build-scheduler
 
 FROM alpine:3.12
 
-COPY --from=0 /go/src/sigs.k8s.io/scheduler-plugins/bin/kube-scheduler /bin/kube-scheduler
+COPY --from=0 /tmp/scheduler/bin/kube-scheduler /bin/kube-scheduler
+COPY --from=0 /tmp/scheduler/etc/kubernetes/kube-scheduler.config.yaml /etc/kubernetes/kube-scheduler.config.yaml
 
 WORKDIR /bin
 CMD ["kube-scheduler"]

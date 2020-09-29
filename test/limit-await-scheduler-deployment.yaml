@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: await-deployment
+  labels:
+    app: await
+spec:
+  replicas: 100
+  selector:
+    matchLabels:
+      app: await
+  template:
+    metadata:
+      labels:
+        app: await
+    spec:
+      schedulerName: limit-await-scheduler
+      containers:
+        - name: pod-with-no-annotation-container
+          image: k8s.gcr.io/pause:3.2
