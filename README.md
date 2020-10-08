@@ -1,0 +1,1 @@
+Kubernetes scheduler plugin to throttle the number of pods that may simultaneously boot up.

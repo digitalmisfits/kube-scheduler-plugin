@@ -95,15 +95,15 @@ func New(configuration runtime.Object, handle framework.FrameworkHandle) (framew
 			availableSlots := make(map[string]int) // default zero for all types
 
 			// add plugin to determine pending/scheduled=false based on last transition time
-			notReadyPodsPerNode, _ := s.GetPodsForNodes(plugin.podNotReady /* and */, plugin.podNotWaiting)
-			for nodeName, nodeReadyNodeInfo := range notReadyPodsPerNode {
+			unreadyPodsPerNode, _ := s.GetPodsForNodes(plugin.podNotReady /* and */, plugin.podNotWaiting)
+			for nodeName, nodeReadyNodeInfo := range unreadyPodsPerNode {
 				notReadyPodNames := make([]string, len(nodeReadyNodeInfo.Pods))
 				for _, podInfo := range nodeReadyNodeInfo.Pods {
 					notReadyPodNames = append(notReadyPodNames, podInfo.Pod.Name)
 				}
 				availableSlots[nodeName] = parallelism - int(math.Min(float64(parallelism), float64(len(nodeReadyNodeInfo.Pods))))
 
-				klog.Infof("Node(%s, available-slots=%d), not ready pods: %s", nodeName, availableSlots[nodeName], notReadyPodNames)
+				klog.Infof("Node(%s, available-slots=%d), unready pods: %s", nodeName, availableSlots[nodeName], notReadyPodNames)
 			}
 
 			s.frameworkHandle.IterateOverWaitingPods(func(waitingPod framework.WaitingPod) {
