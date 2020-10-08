@@ -66,11 +66,9 @@ func New(configuration runtime.Object, handle framework.FrameworkHandle) (framew
 					}
 
 					if !reflect.DeepEqual(old.(*v1.Pod).Status, new.(*v1.Pod).Status) {
-						klog.Infof("Status changed from %s to %s. ", old.(*v1.Pod).Status, new.(*v1.Pod).Status)
 						select {
 						case readyCh <- true:
 						default:
-							klog.Infof("Failed to signal pod state change on the ready channel")
 						}
 					}
 				},
