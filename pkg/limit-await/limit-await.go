@@ -12,6 +12,7 @@ import (
 	framework "k8s.io/kubernetes/pkg/scheduler/framework/v1alpha1"
 	"k8s.io/kubernetes/pkg/scheduler/util"
 	"math"
+	"reflect"
 	"sync"
 	"time"
 
@@ -40,6 +41,8 @@ func New(configuration runtime.Object, handle framework.FrameworkHandle) (framew
 	podLister := handle.SharedInformerFactory().Core().V1().Pods().Lister()
 	nodeLister := handle.SharedInformerFactory().Core().V1().Nodes().Lister()
 
+	readyCh := make(chan bool)
+
 	podInformer := handle.SharedInformerFactory().Core().V1().Pods().Informer()
 	podInformer.AddEventHandler(
 		cache.FilteringResourceEventHandler{
@@ -57,23 +60,19 @@ func New(configuration runtime.Object, handle framework.FrameworkHandle) (framew
 				}
 			},
 			Handler: cache.ResourceEventHandlerFuncs{
-				AddFunc: func(obj interface{}) {
-					//klog.Infof("Adding pod(%s) state", obj.(*v1.Pod).Name, obj.(*v1.Pod).Status)
-				},
-				DeleteFunc: func(obj interface{}) {
-					//klog.Infof("Deleting pod(%s)", obj.(*v1.Pod).Name)
-				},
 				UpdateFunc: func(old, new interface{}) {
-					//klog.Infof("Update pod(%s) state ", new.(*v1.Pod).Name, new.(*v1.Pod).Status)
-
 					if old.(*v1.Pod).ResourceVersion == new.(*v1.Pod).ResourceVersion {
-						klog.Infof("No state changed for pod(%s). ", old.(*v1.Pod).Name)
 						return
 					}
 
-					//if !reflect.DeepEqual(old.(*v1.Pod).Status, new.(*v1.Pod).Status) {
-					//klog.Infof("Status changed from %s to %s. ", old.(*v1.Pod).Status, new.(*v1.Pod).Status)
-					//}
+					if !reflect.DeepEqual(old.(*v1.Pod).Status, new.(*v1.Pod).Status) {
+						klog.Infof("Status changed from %s to %s. ", old.(*v1.Pod).Status, new.(*v1.Pod).Status)
+						select {
+						case readyCh <- true:
+						default:
+							klog.Infof("Failed to signal pod state change on the ready channel")
+						}
+					}
 				},
 			},
 		})
@@ -85,9 +84,16 @@ func New(configuration runtime.Object, handle framework.FrameworkHandle) (framew
 		clock:           util.RealClock{},
 	}
 
-	go func(s *LimitAwaitScheduling, parallelism int) {
-		timerCh := time.Tick(time.Duration(PollInterval) * time.Millisecond)
-		for range timerCh {
+	go func(s *LimitAwaitScheduling, parallelism int, readyCh chan bool) {
+
+		for {
+			select {
+			case _ = <-time.After(time.Duration(PollInterval) * time.Millisecond):
+				klog.Infof("Running control loop (poll)")
+			case _ = <-readyCh:
+				klog.Infof("Running control loop (ready)")
+			}
+
 			availableSlots := make(map[string]int) // default zero for all types
 
 			// add plugin to determine pending/scheduled=false based on last transition time
@@ -112,8 +118,10 @@ func New(configuration runtime.Object, handle framework.FrameworkHandle) (framew
 					waitingPod.Allow(Name)
 				}
 			})
+
+			time.Sleep(1 * time.Second) // at most 1 refresh per second
 		}
-	}(plugin, 4)
+	}(plugin, 4, readyCh)
 
 	return plugin, nil
 }
